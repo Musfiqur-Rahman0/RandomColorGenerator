@@ -8,7 +8,7 @@ const generateRandomClr = () => {
     "#" +
     Math.floor(Math.random() * 16777215)
       .toString(16)
-      .padStart(6, 0);
+      .padStart(6, "0");
   hexaCode.innerText = colorCode;
   body.style.backgroundColor = colorCode;
   btn.style.color = colorCode;
